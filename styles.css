@@ -321,6 +321,36 @@ header a:hover{
     width: 450px;
 }
 
+/*-----------sixth---column----------*/
+
+.procent-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    text-align: center;
+}
+
+.try {
+    text-align: center;
+    padding: 50px;
+
+}
+
+.try h2 {
+    font-size: 35px;
+    margin-bottom: 0;
+}
+
+.try p{
+    margin-top: 7px;
+}
+
+.number {
+    margin: 0;    
+    font-size: 55px;
+    color: #666666;
+}
+
+
 
 
 
