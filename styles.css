@@ -292,6 +292,34 @@ header a:hover{
     color:#087fe7 ;
 }
 
+/*----------------------fifth-column-------------*/
+
+.fifth-column h1 {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.fifth-columncon {
+    padding-bottom: 40px;    
+    display: flex;
+}
+
+.fifth-column {
+    margin-bottom: 0px;    
+    margin: 100px auto;
+}
+
+#fifth-columnimg {
+    width: 455px;
+}
+
+#badges {
+    width: 95%;
+    height: auto;
+}
+#fifth-columntext {
+    width: 450px;
+}
 
 
 
