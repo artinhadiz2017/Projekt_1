@@ -193,6 +193,59 @@ header a:hover{
 
 }
 
+/*-----------third---column------------*/
+.third-column {
+    margin: 100px auto;
+    border-bottom: 1px solid gray;
+    padding-bottom: 80px;
+}
+
+#third-columnhead {
+    width: 560px;   
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin: 0 auto;
+}
+
+#third-columnhead h2{
+    font-size: 35px;  
+    margin-bottom: 0;
+}
+
+.third-columnlist {
+    background-color: #f4f4f4;
+    width: 600px;
+    margin: 0 auto;
+    margin-top: 60px;
+    border-radius: 10px;
+    padding: 30px;
+}
+#head {
+    color: black;
+}
+
+#row{
+    color: gray;    
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid gray;
+}
+
+#imglist{
+    width: 20px;
+}
+
+#lastrow {
+    display: flex;
+    justify-content: space-between;
+    color: gray;    
+    border-bottom: none;
+}
+
+
+
 
 
 
