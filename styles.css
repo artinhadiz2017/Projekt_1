@@ -97,6 +97,41 @@ header a:hover{
     text-decoration: none;
     font-size: small;
 }
+/*-------------First------column---------------*/
+.first-column {
+    display: flex;
+    margin: 100px auto;
+}
+
+#first-columntext h1 {
+    width: 350px;
+    font-size: 40px; 
+    margin-bottom: 0;
+    
+}
+
+#first-columntext{
+    flex-basis: 50%;
+}
+
+#first-columntext p{
+    margin-top: 5px;
+    margin-bottom: 19px; 
+    width: 400px;
+    
+}
+#first-columnimg {
+    flex-basis: 50%;
+}
+
+.mini-text {
+    color: #8f8f8f;
+}
+
+#heroimg {
+    width: 100%;
+}
+
 
 
 
