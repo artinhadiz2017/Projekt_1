@@ -408,6 +408,46 @@ header a:hover{
     text-decoration: underline; 
 }
 
+/*-----------------@Media----------*/
+
+@media (max-width: 600px) {
+
+    .navigation a {
+        display: none; 
+    }
+    
+    .right_nav {
+        display: none; 
+    }
+
+    main{
+        margin: 25px
+    }
+    
+    .phone {
+        display: flex; 
+        align-items: center;        
+        justify-content: flex-end; 
+    }
+    
+    .phone img {
+        padding: 9px;        
+        width: 28px; 
+    }
+
+    .phone img:hover {
+        border-radius: 2px;        
+        background-color:#f4f4f4 ; 
+    }
+
+    header {
+        padding: 10px;
+        margin: 0;        
+        position: static; 
+        border-bottom: none; 
+    }
+
+}
 
 
 
