@@ -132,6 +132,68 @@ header a:hover{
     width: 100%;
 }
 
+.company-logo {
+    display: flex;
+    
+    justify-content: center;    
+    align-items: center;
+    flex-wrap: wrap;
+    border-top: 1px solid gray;
+    border-bottom: 1px solid gray;
+    padding: 18px;
+    gap: 30px;
+}
+
+#logo {
+    height: 24px;
+}
+
+/*---------------Second-------column----------*/
+.second-column {
+    border-bottom: 1px solid rgb(185, 185, 185); 
+    margin: 100px auto;
+    padding-bottom: 13px;
+}
+
+.second-column h1 {
+    width: 951px;
+    font-size: 35px;
+    text-align: center;
+    margin-bottom: 2px;
+}
+
+.second-column h2 {
+    margin-bottom: 0;
+    font-size: 37px; 
+    width: 480px;
+}
+
+.second-column p {
+    margin-bottom: 30px;
+    margin-top: 9px;
+    width: 480px;
+}
+
+#second-columnimg{
+    width: 95%;
+    margin: 7px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2); 
+}
+
+.face{
+    width: 50px;
+}
+
+.faceimg{
+    font-size: 20px;    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 60px;
+
+}
+
+
 
 
 
