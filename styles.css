@@ -244,7 +244,53 @@ header a:hover{
     border-bottom: none;
 }
 
+/*-------------fourth-column----------*/
 
+.fourth-column {
+    margin: 100px auto;
+}
+
+#box{
+    align-items: center; 
+    justify-content: center;    
+    text-align: center;
+}
+
+#box h1 {
+    font-size:35px;    
+    margin-bottom: 0;
+}
+
+#box p {
+    padding-bottom: 30px;
+}
+
+.emojiboxes {
+    display: flex;
+    text-align: center;
+    align-items: center;    
+    justify-content: center; 
+}
+
+#box1, #box2, #box3 {
+    width: 400px;
+    padding: 20px; 
+    text-align: center; 
+     
+}
+
+#box2 {
+    border-left: 1px solid rgb(143, 140, 140 );    
+    border-right: 1px solid rgb(143, 140, 140) ;
+     
+} 
+
+.Learn-more {
+    color: black;
+}
+.Learn-more:hover {
+    color:#087fe7 ;
+}
 
 
 
