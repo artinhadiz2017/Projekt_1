@@ -475,8 +475,76 @@ header a:hover{
     .company-logo {
         margin-top: 79px;
     }
+    /*------------------------------*/
+    .second-column {
+        border-bottom: 1px solid grey; 
+        margin: 50px auto;              
+        display: flex;
+        flex-direction: column;  
+        align-items: center;
+     }
+
+    .second-column h1 {
+        font-size: 25px;
+        width: 481px;
+    }
+
+    .second-column h2 {
+        font-size: 35px;
+        text-align: center;
+    }
+
+    .second-column p {
+        width: 500px;
+        text-align: center;
+    }
+    /*----------------------------------------*/
+    #third-columnhead{
+        width: auto; 
+        padding: 0 15px; 
+    }
+    
+    #third-columnhead p{
+        margin-top: 8px;      
+        width: 518px; 
+        font-size: 18px;  
+    }
+    
+    #third-columnhead h2 {
+        font-size: 40px;
+        margin-bottom: 0;
+    }
+
+    .third-columnlist{
+        width: auto;
+    }
 
     
+    #box h1 {
+        font-size: 37px;
+    }
+
+    #box p{
+        margin-top: 3px;
+        margin-bottom: 0;
+    }
+
+
+    .emojiboxes {
+        display: flex; 
+         align-items: center; 
+        text-align: center;       
+        flex-direction: column; 
+    }
+
+    #box1, #box2, #box3 {
+        width: 540px;
+    }
+
+    #box2 {
+        border-right:none;
+        border-left:none;
+   } 
 
 }
 
